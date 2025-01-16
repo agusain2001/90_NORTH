@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="navbar">Chat Application</div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Users</h3>
+            <ul>
+                <!-- List users dynamically -->
+            </ul>
+        </div>
+        <div class="chat-box">
+            <div class="chat-header">Chat with <span id="chat-with">User</span></div>
+            <div class="chat-messages">
+                <!-- Messages will be dynamically loaded -->
+            </div>
+            <div class="chat-input">
+                <textarea id="message" placeholder="Type your message..."></textarea>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
